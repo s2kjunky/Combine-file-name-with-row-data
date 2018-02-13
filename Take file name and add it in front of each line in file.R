@@ -6,4 +6,4 @@ data <- sapply(files, readLines)
 data <- paste(data)
 
 
-together <- paste(files, data, "\\n")
+together <- paste(files, data)
